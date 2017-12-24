@@ -1,0 +1,106 @@
+
+
+.tile{
+  width:440px;
+  height:340px;
+  margin:10px 25px 10px 25px;
+  /* background-color:#1a242c; */
+  background-image: url("../img/bg_texture.jpg");
+  display:inline-block;
+  background-repeat: repeat;
+  /* background-size:cover; */
+  position:relative;
+  cursor:pointer;
+  transition: all 0.4s ease-out;
+  box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
+  overflow:hidden;
+  color:white;
+  font-family:'微软雅黑',sans-serif;
+}
+
+.tile img{
+  /*height:100%;*/
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: all 0.4s ease-out;
+}
+.tile .text
+{
+    left: 50%;
+    margin-left:-220px;
+    z-index:99;
+  position:absolute;
+  padding:90px 0px 0px 50px;
+  height:calc(100% - 60px);
+  height:calc(100% - 60px);
+}
+
+.tile h1
+{
+	font: 300 36px "微软雅黑";
+	/* writing-mode: tb; */
+	margin: 0;
+	text-align: center;
+	padding: 2px;
+	letter-spacing: 6px;
+    color: rgba(255,255,255,1.00);
+    position: relative;
+    top:-55px;
+}
+
+.tile p
+{
+    font-size: 16px;
+    font-family: "微软雅黑";
+	
+	letter-spacing: 2px;
+	margin: 10px 20px;
+	line-height: 24px;
+	/*   opacity:0; */
+	transform: translateX(-200px);
+    transition-delay: 0.2s;
+    transition: all 0.6s ease-in-out;
+}
+.tile p span{
+    font-weight: bold;
+}
+.animate-text
+{
+  opacity:0;
+  transition: all 0.6s ease-in-out;
+}
+.tile:hover
+{
+/*   background-color:#99aeff; */
+box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
+  transform:scale(1.05);
+}
+.tile:hover img
+{
+  opacity: 0.2;
+}
+.tile:hover .animate-text
+{
+  transform:translateX(0);
+  opacity:1;
+}
+
+.tile:hover p{
+    transform: translateX(0px);
+}
+
+@media (max-width: 1000px) {
+  .wrap {
+   flex-direction: column;
+    width:400px;
+  }
+}
+
+.tile.mj  p span{color: #ff6d6e;}
+.tile.rj  p span{color: #33b9d6;}
+.tile.yj  p span{color: #9b4454;}
+.tile.gcj p  span{color: #ffa88a;}
+/* #Mexample .hj span{background-color: #927ce0;} */

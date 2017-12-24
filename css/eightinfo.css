@@ -1,0 +1,29 @@
+#eighth table{color:#FFFAF0 ;padding: 0px;margin:0px;border-collapse: collapse;
+    /* border: #a7a5a6 solid 1px */
+}
+#eighth table tr{
+    margin: 0px;padding: 10px;
+    
+}
+#eighth table th{
+    border: #a7a5a6 solid 1px;
+    margin: 0px;padding: 12px;
+    font-size: 17px;
+	line-height: 24px;
+    letter-spacing: 3px;
+}
+#eighth table td{
+    font-size: 14px;
+	line-height: 24px;
+    letter-spacing: 2px;
+    border: #a7a5a6 solid 1px;
+    margin:0px;
+    padding: 15px;
+}
+#eighth table td span{
+    font-size: 15px;
+    color:  #a7a5a6;
+    margin: 0px;padding: 0px;
+    display: block;
+    /* font-weight: bold */
+}

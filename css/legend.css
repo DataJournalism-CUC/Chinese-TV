@@ -1,0 +1,51 @@
+#legend {
+    position: fixed;
+    /* top: 0;
+    left: 0; */
+    width:150px;
+    /*height: 100%; */
+    /* overflow: hidden; */
+    z-index: 888;
+    display: none;
+    transition: all 2s ease 0s;
+    /* visibility: hidden; */
+}
+#legend{
+    height: 300px;
+    top:50%;
+    margin-top:-150px;
+    right: 5%;
+}
+
+#legend .line{
+    position: absolute;
+}
+
+#legend .circle {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  border-radius: 50%;
+  transition: all 2s ease 0s;
+  cursor: pointer;
+}
+
+#legend .yj{top:-60px;background-color: #9b4454;}
+#legend .mj{top:-30px;background-color: #ff6d6e;}
+#legend .rj{top:0px;background-color: #33b9d6;}
+#legend .hj{top:30px;background-color: #927ce0;}
+#legend .gcj{top:60px;background-color: #ffa88a;}
+
+#legend .yj span{color: #9b4454;}
+#legend .mj span{color: #ff6d6e;}
+#legend .rj span{color: #33b9d6;}
+#legend .hj span{color: #927ce0;}
+#legend .gcj span{color: #ffa88a;}
+
+#legend span{
+    width: 50px;
+    position: absolute;
+    left: 30px;
+    letter-spacing: 2px;
+    font-size: 12px;
+}

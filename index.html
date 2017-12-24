@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/body.css">
+	<link rel="stylesheet" type="text/css" href="css/info.css">
+
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/second.css">
+	<link rel="stylesheet" type="text/css" href="css/country.css">
+
+	<link rel="stylesheet" type="text/css" href="css/fixed.css">
+	<link rel="stylesheet" type="text/css" href="css/fifth.css">
+	<link rel="stylesheet" type="text/css" href="css/trend.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+
+	<link rel="stylesheet" type="text/css" href="css/countryinfo.css">
+
+	<link rel="stylesheet" type="text/css" href="css/eighth.css">
+	<link rel="stylesheet" type="text/css" href="css/eightinfo.css">
+
+	<link rel="stylesheet" type="text/css" href="css/legend.css">
+	
+	
+
+	<!-- <style type="text/css">
+		#toolbar-container{display: none;}
+	</style> -->
+
+	<!-- <link rel="stylesheet" type="text/css" href="js/anime-master/documentation/assets/css/documentation.css"> -->
+
+
+</head>
+
+<body>
+	<div id="header">
+		<!-- 背景视频 -->
+		<video id="header_bg" autoplay loop>
+			<div></div>
+			<source src="video/header_bg.mov"/>
+		</video>
+		
+
+		<!-- 固定不变的五个剧种  -->
+		<div id="fixed">
+
+			<div class="line">
+				<div class="circle el" id="mj"></div>
+			</div>
+			<div class="line">
+				<div class="circle el" id="rj"></div>
+			</div>
+			<div class="line">
+				<div class="circle el"  id="yj"></div>
+			</div>
+			<div class="line">
+				<div class="circle el"  id="gcj"></div>
+			</div>
+			<div class="line">
+				<div class="circle el"  id="hj"></div>
+			</div>
+			<div class="line player"> <button id="explore" class="hvr-outline-out">start</button></div>
+		</div>
+		
+
+		<div id="mask">
+			<div></div>
+		</div>
+
+		<!-- 网页标题 -->
+		<div id="Title">
+			<h1>国剧低分谁之过？</h1>
+			<!-- <h1>国剧低分，谁之过</h1> -->
+			
+			<!-- <p><img class="hvr-buzz" src="img/LOGO.png"></p> -->
+			<div>
+				<h4>从“电视剧鄙视链”看国产剧发展对策</h4>
+				<p></p>
+				<h6>设计者 | 熊玉兰 崔雨晴 于欣宜</h6>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- 图例 -->
+	<div id="legend">
+		<div>
+			<div class="line">
+				<div class="circle el yj"><span>英剧</span></div>
+			</div>
+			<div class="line">
+				<div class="circle el mj"><span>美剧</span></div>
+			</div>
+			<div class="line">
+				<div class="circle el rj"><span>日剧</span></div>
+			</div>
+			<div class="line">
+				<div class="circle el hj"><span>韩剧</span></div>
+			</div>
+			<div class="line">
+				<div class="circle el gcj"><span>国产剧</span></div>
+			</div>
+		</div>
+	</div>
+
+<!-- <div id="container"> -->
+	<!--  -->
+	<div id="country">
+		<div class="line">
+			<div class="circle el mj">
+				<p class="mj">
+					<img class="hvr-shrink" src="../img/fmj.png" alt="">
+				</p>
+			</div>
+		</div>
+		<div class="line">
+			<div class="circle el rj">
+				<p class="rj">
+					<img class="hvr-shrink" src="../img/frj.png" alt="">
+				</p>
+			</div>
+		</div>
+		<div class="line">
+			<div class="circle el yj">
+				<p class="yj">
+					<img class="hvr-shrink" src="../img/fyj.png" alt="">
+				</p>
+			</div>
+		</div>
+		<div class="line">
+			<div class="circle el gcj">
+				<p class="gcj">
+					<img class="hvr-shrink" src="../img/fgcj.png" alt="">
+				</p>
+			</div>
+		</div>
+		<div class="line">
+			<div class="circle el hj">
+				<p class="hj">
+					<img class="hvr-shrink" src="../img/fhj.png" alt="">
+				</p>
+			</div>
+		</div>
+		<div class="footinfo">
+			<p>
+				五国国旗大小代表各国电视剧在豆瓣网站的评分大小，呈现出“英剧>美剧>日剧>韩剧>国产剧”的态势
+				<br>国产剧评分最低，位于鄙视链底端。点击国旗，可查看各国电视剧行业发展概览
+			</p>
+		</div>
+	
+	</div>
+
+	<!-- countryinfo -->
+	<div>
+		<section class="overlay" id="yjinfo">
+			<div class="wrap">
+				<h1>英剧</h1>
+				<h3>小作坊的精致与创新</h3>
+				<p>
+					题材多与生活紧密相关，主张尽最大可能去体验生活、捕捉生活，展现不同时代下人的生存困局，能够满足现代观众对内心的追问、对现实生活的斥责与享受的双重选择。 
+					</p><p>剧种较为多样，例如：改编剧（挖掘戏剧、小说等经典文学作品）、时代剧（复现历史原貌，表达对历史的回望、对日不落帝国的怀念，细节彰显文化）、现代剧（喜剧、穿越、科幻、侦探等）。
+					</p><p>采取季播模式，每季3-9集，每集时长60分钟。
+				</p>
+			</div>
+		
+			<button class="close">
+				<p>
+					<img src="../img/back.png">
+				</p>
+				<span class="mfg-cancel"></span>
+			</button>
+		</section>
+		
+		<section class="overlay" id="mjinfo">
+			<div class="wrap">
+				<h1>美剧</h1>
+				<h3>“套路”的流水线生产</h3>
+				<p>
+					肥皂剧(Soap Opera)、情景喜剧(Sitcom)、情节系列剧(Drama)是美剧的三大类别，有些剧集兼有其中两种、三种甚至的特点。肥皂剧以家庭主妇为主要观众，家庭日用品商家为赞助商，普通家庭生活环境为舞台。情景喜剧是一种喜剧演出模式，由剧本品质与演员功力双环构成。情节系列剧在结构上较为固定，每集分为序幕、片头、主戏、片尾，每一幕之间是广告时间。
+					</p><p>美剧的题材丰富度较高，且分类完善、严谨、不冲突；主题多围绕英雄主义与自由主义。 
+					</p><p>美剧一般摄播同步进行，传统上以每年九月中旬至次年四月下旬为一个播出季，每周固定时间播送一集。一般剧情类的剧集在12集左右。
+				</p>
+			</div>
+		
+			<button class="close">
+				<p>
+					<img src="../img/back.png">
+				</p>
+				<span class="mfg-cancel"></span>
+			</button>
+		</section>
+		
+		<section class="overlay" id="rjinfo">
+			<div class="wrap">
+				<h1>日剧</h1>
+				<h3>直戳心底的“毒鸡汤”</h3>
+				<p>
+					日剧题材非常广泛，爱情、医务、都市、警察、侦探悬疑、律政、青春校园、政治、家庭题材俱全，热衷于描述特定职业的职场生态。
+					</p><p>“嘴炮”和“毒鸡汤”是日剧必备。其主题直面现实，引领观众对生活意义、人生意义进行更深层次的探索和挖掘；多探讨社会突出问题，不避讳禁忌题材。
+					</p><p>日剧的播出分为春夏秋冬四个档期。按照每天的播出时段可分为晨间剧、午间剧、夜间剧。剧集一般为9—13集，片长40—60分钟不等
+				</p>
+			</div>
+		
+			<button class="close">
+				<p>
+					<img src="../img/back.png">
+				</p>
+				<span class="mfg-cancel"></span>
+			</button>
+		</section>
+		
+		<section class="overlay" id="hjinfo">
+			<div class="wrap">
+				<h1>韩剧</h1>
+				<h3>剧情新颖的小成本制作</h3>
+		
+				<p>
+					韩剧题材新颖，叙事方式独特。主题多反应底层人民生活和奋斗的经历，融入现代人的情感需求。由于韩国的编剧多为情感细腻的女性，故韩剧多具有世俗化的特点。 
+					</p><p>韩剧的一大特色是有很多固定模式，如绝症模式、灰姑娘模式、多角恋模式。通过编剧设计的喜剧冲突，将这些固定模式串联起来，不断制造矛盾，过程连环曲折。这样的设计，让观众可以从任意一集切入观看，不必担心情节的紧凑而跟不上节奏。
+					</p><p>韩剧一般摄播同步进行，剧集一般为16—20集，片长20—70分钟不等。
+				</p>
+			</div>
+		
+			<button class="close">
+				<p>
+					<img src="../img/back.png">
+				</p>
+				<span class="mfg-cancel"></span>
+			</button>
+		</section>
+
+		<section class="overlay" id="gcjinfo">
+			<div class="wrap">
+				<h1>国产剧</h1>
+				<h3></h3>
+				<p>
+					国产剧有着非常悠久的历史和文化积淀，一般在广东、浙江、上海、北京、厦门等大陆著名的地点取景拍摄。 
+					</p><p>按年代划分，可分为当代、现代、近代、古代及重大类型。按具体题材划分，可分为都市、科幻、革命、历史、神话、武侠等类型。以国产剧的现状来看，历史题材较多，深入反映现实题材的较少，对社会生活缺乏深入了解和反映。
+					</p><p>国产剧承载的文化功能一般包括：娱乐、宣传教化、安抚民生、情感生活等功能。
+
+				</p>
+		
+			</div>
+		
+			<button class="close">
+				<p>
+					<img src="../img/back.png">
+				</p>
+				<span class="mfg-cancel"></span>
+			</button>
+		</section>
+
+	</div>
+
+	<!-- 图一 分数-->
+	<div id="first">
+    	<div class="pre">
+	    	<p class="Btitle">
+				何为电视剧鄙视链
+			</p>
+			<p class="Minfo">
+				 近年来，随着国产剧“走出去”战略的逐步推进，《甄嬛传》《琅琊榜》等剧在东亚、东南亚地区屡获佳绩。据《好莱坞报道者》11月30日的报道，美国流媒体巨头、世界最大收费视频网站Netflix买下了优酷自制网剧《白夜追凶》的海外播放权。这是Netflix首次买下中国内地网剧版权，标志着国产剧在迈向欧美市场的道路上又前进了一大步。种种迹象都表明，国产剧的“综合实力”在不断提高。
+			</p>
+			<p class="Minfo">
+				 而根据2012年《南方都市报》的报道，在电视剧领域出现了如下的鄙视链：英剧＞美剧＞日剧＞韩剧＞港剧＞台剧＞内地剧＞泰剧。那么，这样的鄙视链是否在今天还依然存在？为什么国产剧会沦为鄙视链的底端？应如何提高国产剧在受众心目中的地位？
+			</p>
+			<p class="Minfo">
+				 为解答这些问题，我们以中国电视剧爱好者最重要的网络聚集地——豆瓣社区为例，通过抓取各国电视剧的评分、题材、豆瓣讨论区中网友的讨论热度等数据，探讨影响鄙视链形成的诸多因素，并在此基础上为国产剧的未来发展提出对策。
+			</p>
+			<!-- <p class="Subinfo">
+			</p> -->
+		</div>
+	</div>
+
+	
+
+
+	<!-- 图二 分数小提琴图-->
+	<div id="second">
+		<div class="Stitle">
+			<p class="Smtitle">鄙视链中的三级结构</p>
+			<p class="Stinfo">
+				通过对豆瓣评分的分布情况进一步统计，我们将它们的分布特征归纳为一个简单的三级结构，第一级为英剧和美剧，第二级为日剧和韩剧，第三级为国产剧。
+
+			</p>
+		</div>
+		<div id="violin">
+			<div id="Pviolin">
+				<img class="violin_img hvr-grow yj" src="img/yj.png">
+				<img class="violin_img hvr-grow mj" src="img/mj.png">
+				<img class="violin_img hvr-grow rj" src="img/rj.png">
+				<img class="violin_img hvr-grow hj" src="img/hj.png">
+				<img class="violin_img hvr-grow gcj" src="img/gcj.png">
+			</div>
+			<div id="Iviolin">
+				<div class="Iviolin yj"><h3>英剧</h3><p><span>ave</span>8.3</p><p><span>max</span>9.8</p><p><span>75%</span>8.9</p><p><span>50%</span>8.4</p><p><span>25%</span>7.7</p><p><span>min</span>5.4</p><p><span>方差</span>0.6</p></div>
+				<div class="Iviolin mj"><h3>美剧</h3><p><span>ave</span>8.2</p><p><span>max</span>9.8</p><p><span>75%</span>8.9</p><p><span>50%</span>8.5</p><p><span>25%</span>7.6</p><p><span>min</span>4.6</p><p><span>方差</span>0.7</p></div>
+				<div class="Iviolin rj"><h3>日剧</h3><p><span>ave</span>7.7</p><p><span>max</span>9.6</p><p><span>75%</span>8.2</p><p><span>50%</span>7.7</p><p><span>25%</span>6.8</p><p><span>min</span>4.5</p><p><span>方差</span>0.8</p></div>
+				<div class="Iviolin hj"><h3>韩剧</h3><p><span>ave</span>7.2</p><p><span>max</span>9.6</p><p><span>75%</span>7.8</p><p><span>50%</span>7.2</p><p><span>25%</span>6.6</p><p><span>min</span>4.7</p><p><span>方差</span>0.7</p></div>
+				<div class="Iviolin gcj"><h3>国产剧</h3><p><span>ave</span>6.3</p><p><span>max</span>9.2</p><p><span>75%</span>7.3</p><p><span>50%</span>6.4</p><p><span>25%</span>5.4</p><p><span>min</span>2.7</p><p><span>方差</span>1.8</p></div>
+			</div>
+		</div>
+		<div class="picNote">
+			<div class="picNote1"><p><img src="img/tuli.png"></p></div>
+			<div class="picNote2">
+				<p>
+					电视剧得分分布情况概览：纵轴表示分值，颜色深浅表示数量<br>即颜色较深位置表示位于该分数段的电视剧数量较多。白色星星为该国电视剧豆瓣评分均值
+				</p>
+				
+			</div>
+		</div>
+		<div class="SSinfo">
+			<p class="Sminfo">
+				 从提琴图中可以看到，在同一等级内部，不同国家电视剧各方面的分值均相差不大，而各等级之间的分值则落差明显。不论从平均评分，还是从最高、最低评分来看，五国电视剧的优劣排序均为：英剧＞美剧＞日剧＞韩剧＞国产剧。由此证明，“电视剧鄙视链”在今天仍然存在。此外，国产剧的评分方差最大，且远远大于其他四国，可见国产剧的质量波动较大。
+			</p>
+			<!-- <p class="Sminfo">
+				综合来看，位于第一级的英剧和美剧均具有较高的平均分和最高值，且方差较小；第二级的日剧和韩剧平均分接近，略低于一一级，方差与一级接近；而位于第三级的国产剧，平均分较低，方差也较大，整体的评分分布非常分散。因此可以认为豆瓣用户对英美剧普遍持较高的评价，且意见较为一致，而对于国产剧，大家“爱恨交织”，这也与国内电视剧质量参差不齐有关。
+			</p> -->
+			<p></p>
+		</div>
+	</div>
+
+	
+
+	<!-- 主题二分隔段 -->
+	<div class="pre">
+		<p class="Subinfo"></p>
+		<p class="Btitle"><span>影响鄙视链产生的四个因素</span></p>
+		<div align="center">
+			<img src="img/chatu.png" style="width: 1000px;">
+		</div>
+		<p class="footinfo">
+			这是评分和参评人数均居于各国榜首的五部优秀电视剧，它们能够在一定程度上反映各国擅长制作的电视剧题材。
+		</p>
+		<p class="Minfo">
+			 那么，导致国产剧沦为鄙视链底端的原因是什么呢？毫无疑问，“质量”是影响各国电视剧排名的核心因素，但不是唯一因素。除此之外，诸如制播模式、题材、文化观念、他人评价等都会影响受众对某一电视剧的评分。
+		</p>
+		<!-- <p class="Subinfo">
+			「刻板印象指的是，人们通过整合有关信息及个人经验形成的一种针对特定对象的既定认知模式。社会认同理论认为，刻板印象是社会分类和比较的结果，人们总是倾向于以一定的标准将事物进行归类，使信息的提取和运用结构化。」
+		</p> -->
+		<p class="Minfo">
+			 在这一部分，我们试从“题材选择”、“制作团队专业性”、“讨论热度&长评数量”以及“时长和集数”四个方面，分析影响受众评分的因素。
+		</p>
+		<!-- <p class="Minfo">
+			通过查阅相关资料和分析数据，我们总结了以下两个主要影响因素——【题材】、【社会话题度】。
+		</p> -->
+	</div>
+
+
+	<!-- 图三 题材泡沫图-->
+	<div id="third">
+		<div class="Stitle">
+			<p class="Smtitle">
+				#1.核心题材的优质与否
+			</p>
+			<p class="Stinfo">
+				 根据豆瓣的分类标准，电视剧按题材可分为剧情、喜剧、爱情、悬疑等27类。我们统计了五国电视剧中各题材的数量、占比情况及对应评分，以分析各国偏好的题材及其质量。
+			</p>
+			
+		</div>
+		<div id="foam">
+		 	<div id="visualization_yj" class="bubble_chart"></div>
+			<div id="visualization_mj" class="bubble_chart"></div>
+			<div class="bubble_chart Sminfo">
+				<p>
+					五国电视剧在题材选择上具有较大差异，英剧、美剧及日剧题材丰富，韩剧、国产剧题材略少。这和各国的社会政治、文化等因素息息相关。
+				</p>
+			</div>
+			<div id="visualization_rj" class="bubble_chart"></div>
+			<div id="visualization_hj" class="bubble_chart"></div>
+			<div id="visualization_gcj" class="bubble_chart"></div>
+		</div>
+		<div class="footinfo">
+			<p>
+				图中气泡大小代表该国电视剧题材数量占比，其中【剧情】占比超过50%<br>且各国差异较小。为便于比较，剔除【题材】，仅展示其他题材的数量对比
+			</p>			
+		</div>
+		<div class="SSinfo">
+			<p class="Sminfo">
+				从各图中气泡的数量、大小可以看出，英剧、美剧、日剧的题材较为丰富，各题材占比量无太大悬殊，且“喜剧”“悬疑”“犯罪”三个题材占比均较高。与之相比，韩剧和国产剧的题材略显单调，各题材占比量悬殊略大（韩剧尤为如此），且核心题材均为“爱情”。 那么各国电视剧中占比较多的题材，是否得到了受众的更多好评呢？
+
+			</p>
+			<p class="Sminfo">
+				综合题材数量和评分情况，我们选取了其中七个具有代表性的题材（即横轴所示），通过计算五国各题材电视剧的平均评分并排序，探究各国电视剧核心题材的优质与否。
+			</p>
+		</div>
+
+	</div>
+
+
+	<!--因素一：题材 图四 题材对比-->
+	<div id="forth">
+
+		<div id="bump_chart">
+			<!-- 跳跳图html -->
+			<div class='tableauPlaceholder' id='viz1512060373312' style='position: relative'>
+				<noscript>
+					<a href='#'>
+						<!-- <img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ra&#47;rank_15&#47;1&#47;1_rss.png' style='border: none' /> -->
+					</a>
+				</noscript>
+				<object class='tableauViz'  style='display:none;'>
+					<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+					<param name='embed_code_version' value='3' /> 
+					<param name='site_root' value='' />
+					<param name='name' value='final-3&#47;1_1' />
+					<param name='tabs' value='no' />
+					<param name='toolbar' value='yes' />
+					<!-- <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;h_&#47;h_13&#47;1_1&#47;1.png' />  -->
+					<param name='animate_transition' value='yes' />
+					<param name='display_static_image' value='yes' />
+					<param name='display_spinner' value='yes' />
+					<param name='display_overlay' value='yes' />
+					<param name='display_count' value='yes' />
+					<param name='filter' value='publish=yes' />
+				</object>
+			</div>   
+			
+			<div class="Fcover">
+			</div>
+			<div class="footinfo">
+				<p>
+					图中气泡大小代表各题材在本国电视剧中所占比例的大小，气泡位置由高到低代表五国该题材电视剧的平均评分排序
+					<br>鼠标悬浮显示详细信息，包括国家、题材、分数和数量。点击下方图例，可以选中一个国家单独观看
+				</p>			
+			</div>
+		</div>
+
+		<div class="SSinfo">
+			<p class="Sminfo">
+				如上图所示，在国产剧中占比最大的三个题材——“爱情”“家庭”“古装”——评分都远低于其他国家，而排名有所上升的“科幻”和“战争”题材，在国产剧中所占的份额则少之又少。反观英、美剧，在其大多数题材都保持较高水准的同时，占比最大的“喜剧”的评分也凌驾于他国之上。此外，通过比较五国内部各题材的评分，我们发现，日剧、韩剧、国产剧中占比较大的题材的评分，都普遍低于占比较小的题材的评分。
+			</p>
+			<p class="Sminfo">
+				这种现象引起了我们的思考：国产剧的制作优势是否在于爱情片？如果不在，我们是否应将电视剧的制作重心转向其他题材？哪些题材是国产剧应着重挖掘的？
+			</p>
+			<p></p>
+		</div>
+
+	</div>
+
+	<!-- 因素二：专业水平 -->
+	<div id="eighth">
+		<div class="Stitle">
+			<p class="Smtitle">
+				#2.制作团队的专业性
+			</p>
+			<p class="Stinfo">
+				除核心题材质量较低外，国产剧缺乏在某一专业领域内的制作优势，即不能将建构在特定框架下的故事严密地呈现出来。在英、美、日三国，我们均可以找到收视率、口碑双收的专业题材电视剧，例如《神探夏洛克》《权利的游戏》《Legal High》等，而诸如《亲爱的翻译官》、《外科风云》之类的国产剧则漏洞百出。
+			</p>
+			<p class="Stinfo">
+			</p>
+		</div>
+	
+		<!-- 四个典型案例 -->
+		<div id="Mexample">
+			<div class="tile yj">
+				<img src="img/Myj.jpg" alt="">
+				<div class="text animate-text">
+					<h1>神探夏洛克</h1>
+					<p>
+						<span>国家：</span>英国
+					</p>
+					<p>
+						<span>题材：</span>侦探
+					</p>
+					<p>
+						<span>季数：</span>4
+					</p>
+					<p>
+						<span>豆瓣评分：</span>8.95
+					</p>					
+				</div>
+	
+			</div>
+
+			<div class="tile mj">
+				<img src="img/Mmj.jpg" alt="">
+				<div class="text animate-text">
+					<h1>权力的游戏</h1>
+					<p>
+						<span>国家：</span>美国
+					</p>
+					<p>
+						<span>题材：</span>科幻
+					</p>
+					<p>
+						<span>季数：</span>7
+					</p>
+					<p>
+						<span>豆瓣评分：</span>9.34
+					</p>
+				</div>
+			
+			</div>
+
+			<div class="tile rj">
+				<img src="img/Mrj.jpg" alt="">
+				<div class="text animate-text">
+					<h1>Legal High</h1>
+					<p>
+						<span>国家：</span>日本
+					</p>
+					<p>
+						<span>题材：</span>法律
+					</p>
+					<p>
+						<span>季数：</span>2
+					</p>
+					<p>
+						<span>豆瓣评分：</span>9.25
+					</p>
+				</div>
+			
+			</div>
+
+			<div class="tile gcj">
+				<img src="img/Mgcj.jpg" alt="">
+				<div class="text animate-text">
+					<h1>亲爱的翻译官</h1>
+					<p>
+						<span>国家：</span>中国
+					</p>
+					<p>
+						<span>题材：</span>翻译
+					</p>	
+					<p>
+						<span>豆瓣评分：</span>5.1
+					</p>
+					<p>
+						<span>Bugs：</span>演员法语口型对不上、业内无“翻译官”这个称谓……
+					</p>
+				</div>
+			
+			</div>
+	
+		</div>
+		<div class="SSinfo">
+			<p class="Sminfo">
+				那么，国产剧的专业性为何会与别国相差甚远？我们试从编剧、台词、人物塑造三个角度对原因进行分析：
+			</p>
+			<!-- <p class="Sminfo">
+			</p>
+			<p class="Sminfo">
+			</p> -->
+			<p></p>
+			<table>
+				<tr>
+					<th></th>
+					<th>英、美、日剧</th>
+					<th>国产剧</th>
+				</tr>
+				<tr>
+					<th>编剧</th>
+					<td>
+						 1.流水线团队
+						<span>不同编剧分别负责不同情节、线索以及高潮部分的设置，再由统筹部门把每集故事内容编织起来，保证每集都有高潮</span>
+						 2.修改、制作、播放同步
+						<span>根据观众的反映决定剧情走向，及时查漏补缺</span>
+					</td>
+					<td>
+						 编剧缺乏耐心、能力，文化修养不足
+						<span>剧情处理不当，前期矛盾众多，尾声矛盾一下就能得以解决</span>
+
+					</td>
+					
+				</tr>
+				<tr>
+					<th>台词</th>
+					<td>
+						 编剧对某一特定行业了解透彻
+						<span>台词切合实际、专业度较高</span>
+
+					</td>
+					<td>
+						 剧组邀请文学顾问较多，专业顾问较少
+						<span>台词中常识性问题频出</span>
+					</td>
+				</tr>
+				<tr>
+					<th>人物塑造</th>
+					<td>
+						 演员多为实力派，注重对角色内心的剖析
+						<span>人物塑造逼真，极具魅力</span>
+					</td>
+					<td>
+						 演员多为流量明星，不能潜心体会角色
+						<span>人物塑造粗糙，不符合行业现实</span>
+					</td>
+				</tr>
+			</table>
+
+		</div>
+	
+	
+	</div>
+	
+
+	<!-- 因素三：评论讨论情况 图五 评论情况散点图-->
+	<div id="fifth">
+		<div class="Stitle">
+			<p class="Smtitle">
+				#3.话题度潜移默化影响用户的评价
+			</p>
+			<p class="Stinfo">
+				豆瓣是一个开放式的公众讨论平台，受众可以通过评分、讨论、长评、短评等方式发表自己对某一部电视剧的看法。由于“讨论” 多围绕为电视剧中某些专业性较强、令人费解的片段，“长评”多为受众对电视剧较为用心的点评、解读，故而我们初步推断，讨论的热度和长评的数量能够在一定程度上反映出电视剧的优劣。
+			</p>
+			<p class="Stinfo">
+				但是，不排除部分受众在对某一电视剧作出独立评价前，会先浏览豆瓣上的讨论、长评、短评，从而受“从众心理”的影响而作出迎合公众舆论的行为这一可能性。据此，我们提出假设——针对某部电视剧的讨论热度和长评数量会在一定程度上影响受众的评分。为验证这一假设，我们将豆瓣任一一部电视剧的评分人数、讨论条数、短评和长评数量作两两二维分析。
+			</p>
+
+
+		</div>
+		<div id="scatLegend">
+			<span status="false" group="英剧" class="hvr-float">英剧</span>
+			<span status="true" group="美剧" class="hvr-float">美剧</span>
+			<span status="false" group="日剧" class="hvr-float">日剧</span>
+			<span status="false" group="韩剧" class="hvr-float">韩剧</span>
+			<span status="true" group="国产剧" class="hvr-float">国产剧</span>
+		</div>
+		<div id="comment"></div>
+		<div class="footinfo">
+			<p>
+				四张图分别展示评分、讨论、长评、短评人数之间的关系，POINTS ON V/H LINE 表示与鼠标在相同的横/竖列的点所代表的电视剧<br>通过调节滑块可以看到不同人数段更清晰的数据差异。点击标签可以选择不同国家的电视剧进行相互对比
+			</p>			
+		</div>
+		<div class="SSinfo">
+			<p class="Sminfo">
+				 散点图中点的离散程度能够表示横纵坐标的相关度，我们可以明显看出第一张图的评分人数和讨论人数之间相关度最高，相比之下长评数量、短评数量和评分人数之间的相关度较低，可见“讨论”数量最能反应该剧的话题热度，在该板块形成的话题导向也因此容易影响那些提前查看剧集评价的用户，使其产生先入为主印象，进而影响他们的观剧后的感受。
+			</p>
+			<p class="Sminfo">
+				 另外，长评作为字数最多的板块，其分析深度要高于讨论与短评板块，虽然长评数量整体不高，但我们无法否认长评内容会影响到观众的态度。
+			</p>
+			<p class="Sminfo">
+				 因此我们认为，豆瓣用户在评分时可能会参考“讨论”与“评论”中的意见，尤其是”讨论“中的内容更容易影响用户的态度。
+			</p>
+			<p></p>
+		</div>
+		
+
+	</div>
+
+	<!-- 因素四：时长和集数 -->
+	<div id="ninth">
+		<div class="Stitle">
+			<p class="Smtitle">
+				#4.剧集模式影响观剧体验
+			</p>
+			<p class="Stinfo">
+				 剧集数量和时长对观众的观剧体验有较大影响，通过对比五国电视剧剧集模式的差异，结合豆瓣评分情况，我们观察到国产剧和另四国电视剧的差异所在，这些差异或许可以成为国产剧革新播出模式的良好借鉴。
+			</p>
+			<!-- <p class="Stinfo">
+			</p>		 -->
+		</div>
+
+		<div id="length">
+			<div id="lenscatter">
+				<div class='tableauPlaceholder' id='viz1514124877794' style='position: relative'>
+					<noscript>
+						<a href='#'>
+							<img alt='仪表板 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;fin_3&#47;1_1&#47;1_rss.png'
+							 style='border: none' />
+						</a>
+					</noscript>
+					<object class='tableauViz' style='display:none;'>
+						<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+						<param name='embed_code_version' value='3' />
+						<param name='site_root' value='' />
+						<param name='name' value='fin_3&#47;1_1' />
+						<param name='tabs' value='no' />
+						<param name='toolbar' value='yes' />
+						<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;fi&#47;fin_3&#47;1_1&#47;1.png'
+						/>
+						<param name='animate_transition' value='yes' />
+						<param name='display_static_image' value='yes' />
+						<param name='display_spinner' value='yes' />
+						<param name='display_overlay' value='yes' />
+						<param name='display_count' value='yes' />
+						<param name='filter' value='publish=yes' />
+					</object>
+				</div>
+				<script type='text/javascript'>                    
+					var divElement = document.getElementById('viz1514124877794'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '1000px'; vizElement.style.height = '727px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+			</div>
+
+			<div class="Fcover">				 
+			</div>
+			<div class="footinfo">
+				<p>
+					拖动滑块观看不同区间中剧集和时长的分布情况。点击下方图例可以查看对应电视剧
+					<br>右上方【国别】多选筛选器中可选择相关国家进行单独或对比观察
+				</p>
+			</div>
+		</div>
+
+		<div class="SSinfo">
+			<p class="Sminfo">
+				 从图中可以看到，英剧和日剧每季集数较少，每集时长较长，形成独特的节奏感和跳跃感，而每周轮播的模式则对其质量提出了更高的要求——只有高水平、吸引力较强的电视剧才能让观众每周都守在电视前准时收看。对比韩剧和国产剧可以看到，韩剧的播出模式在一定程度上与国产剧类似，集数较长，但韩剧的剧集长度却明显高于国产剧。
+			</p>
+			<p class="Sminfo">
+				 国产剧受制于市场和政策，在播出方式上通常采用日播模式，为增加播出和曝光周期，国产剧会采用增加集数，减少时长的做法。然而这种模式很容易导致剧情拖沓、后期收视疲软的问题；同时，因国产剧很大程度依赖广告盈利，短短40分钟的电视剧会灌入长达10分钟之久的广告，在收视上很难形成连贯性。
+			</p>
+			<p class="Sminfo">
+			</p>
+		</div>
+
+	</div>
+
+
+
+
+
+	<!-- 主题三分隔段 -->
+	<div class="pre" id="lastp">
+		<!-- 承上 -->
+		<p class="Btitle">SUMMARY</p>
+		<p class="Minfo">
+			通过上述分析，我们得出如下结论：
+		</p>
+		<ul>
+			<li>
+				<p class="Minfo">
+					国产剧题材较为单调，且各题材的质量均不高；而在国产剧中占比最大的爱情片，往往是拉低评分的罪魁祸首
+				</p>
+			</li>
+			<li>
+				<P class="Minfo">
+					与英、美、日三国相比，国产剧缺乏针对某一专业题材的制作优势，其中不时出现的常识性错误会在很大程度上降低受众的好感
+				</p>
+			</li>
+			<li>
+				<P class="Minfo">
+					豆瓣中针对某部电视剧的讨论热度及长评内容会在一定程度上影响评分
+				</p>
+			</li>
+			<li>
+				<P class="Minfo">
+					大多数国产剧日播、集数多、单集时间短的播放模式易影响观剧体验，导致后期观众丧失追剧热情
+				</p>
+			</li>
+		</ul>
+		<!-- <p class="Minfo">
+			上述结论均在一定程度上表明，国产剧不具备在某一特定领域内的制作优势，缺乏专业性。在其他四国，我们均可以找到收视率、口碑双收的专业题材电视剧，例如
+		</p> -->
+		<!-- <p class="Subinfo"></p> -->
+
+		<!-- 过渡 -->
+
+
+	</div>
+
+	<!-- 电视剧专业性分析 -->
+
+
+	<!-- 图六 时间趋势图-选取02-17年各国前15名-->
+	<div id="sixth">
+		<!-- <div id="trend"></div> -->
+		<div id="Tselect">
+			<select class="Tselect" id="country-filter">
+				<option value='all'>国别</option>
+				<option value='英剧'>英剧</option>
+				<option value='美剧'>美剧</option>
+				<option value='日剧'>日剧</option>
+				<option value='韩剧'>韩剧</option>
+				<option value='国产剧'>国产剧</option>
+			</select>
+			<select class="Tselect" id="category-filter">
+				<option value='all'>题材</option>
+				<option value='剧情'>剧情</option>
+				<option value='喜剧'>喜剧</option>
+				<option value='犯罪'>犯罪</option>
+				<option value='悬疑'>悬疑</option>
+				<option value='爱情'>爱情</option>
+				<option value='惊悚'>惊悚</option>
+				<option value='历史'>历史</option>
+				<option value='科幻'>科幻</option>
+				<option value='家庭'>家庭</option>
+				<option value='动作'>动作</option>
+				<option value='冒险'>冒险</option>
+				<option value='战争'>战争</option>
+				<option value='纪录片'>纪录片</option>各国
+				<option value='恐怖'>恐怖</option>
+				<option value='奇幻'>奇幻</option>
+			</select>
+		</div>
+		<div id="THtitle">
+			<h3><span>[探索] </span>各国评分Top15电视剧</h3>
+			<p></p>
+		</div>
+		<div id="trend2"></div>
+		<div class="footinfo">
+			<p>
+				选取15年各国评分人数高于75%中分数排名前15的电视剧，纵轴表示电视剧首播时间<br>横轴表示评分人数大小，从左往右按由小到大顺序排列，气泡大小表示分数高低
+			</p>			
+		</div>
+		<div class="SSinfo">
+			<p class="Sminfo"></p>
+			<p></p>
+		</div>
+	</div>
+
+	
+
+
+	<div class="pre" id="lastp">
+		<!-- 国产剧发展对策 -->
+		<p class="Btitle">鄙视链如何打破？</p>
+		<p class="Minfo">
+			“文化是一个国家、一个民族的灵魂。没有高度的文化自信，没有文化的繁荣兴盛，就没有中华民族伟大复兴。”根据党的十九大的指示，文化自信是推动我国发展得更深沉、更持久的力量，而优质的国产剧是构成我国文化自信的重要一环。
+		</p>
+		<p class="Minfo">
+			国产剧虽然在慢慢地“走出去”，但只要对比英剧、美剧等在全球的风靡程度，就会发现国产剧走得仍不够远、不够快。“电视剧鄙视链”的存在表明，国产剧与世界高水准电视剧之间还存在一定的差距。
+		</p>
+		<p class="Minfo">
+			这种差距受多种因素影响，包括对电视剧题材的选择、制作团队的专业性、播出模式等等，但这些劣势并非不可扭转。为加快国产剧“走出去”的步伐，我们建议：拓宽国产剧题材的丰富度，从优秀的传统文化和丰富的现实生活中挖掘故事，找到自身优势所在；将工作重心更多地向剧本和制作环节倾斜，不断增强专业性；规范国内片酬市场，合理规划宣发工作，将更多资金投入到剧本和制作中。
+		</p>
+		<p class="Minfo">
+			只有真正将心思放在制作优秀的作品上，才能收获更多受众好评，进一步取得良好的经济和社会效益。
+		</p>
+
+		<p class="Subinfo"></p>
+		<p><img class="hvr-buzz" src="img/LOGO.png"></p>
+
+
+	</div>
+
+	<!-- 脚注 -->
+	<div id="seventh">
+		<hr width="400px" height="20px" align="left">
+		<div class="Stitle">
+			<!-- <p class="Smtitle">特别感谢：谈和</p> -->
+			<p class="Smtitle">
+				数据和图片来源：豆瓣网站
+			</p>
+			<p class="Smtitle">制作软件：Tableau | Echarts | p5.js | carrotsearch.foamtree.js</p>
+			<p class="Smtitle">如有问题，欢迎指正</p>
+		</div>
+
+	</div>
+
+
+
+
+
+
+<!-- 跳跳图js -->
+<script type='text/javascript'>                    
+	var divElement = document.getElementById('viz1512060373312');                    
+	var vizElement = divElement.getElementsByTagName('object')[0];                    
+		vizElement.style.width='1000px';
+		// vizElement.style.maxHeight='550px';
+		vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    
+	var scriptElement = document.createElement('script');                    
+		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+<!-- 开始控制
+<script>
+	$("#explore").click(function () {
+			$('html, body').animate({
+				scrollTop: $("#country").offset().top
+			}, 1000
+			);
+		});
+</script> -->
+
+<!-- 引入库 -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="js/library/echarts.js"></script>
+<script src="js/library/jquery.js"></script>
+<script src="js/anime-master/anime.min.js"></script>
+<script src="js/library/p5.min.js"></script>
+<script src="js/library/p5.dom.js"></script>
+<script src="https://cdn.bootcss.com/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="js/library/carrotsearch.foamtree.js"></script>
+
+
+<!-- 导入画图文件 -->
+<!-- <script src="js/fixed.js"></script> -->
+<script src="js/comment.js"></script>
+<script src="js/bubble.js"></script>
+<script src="js/sketch.js"></script>
+<script src="js/foam.js"></script>
+
+<script src="js/countryinfo.js"></script>
+
+</body>
