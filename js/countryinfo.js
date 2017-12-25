@@ -23,7 +23,6 @@ $(".close").click(function(){
 
 
 $(window).scroll(function () {
-    console.log("tanhe");
     if (window.scrollY < 2300 && window.scrollY > 1400)  {
         $("#legend").show()
     } else if (window.scrollY < 4000 && window.scrollY > 3200){
